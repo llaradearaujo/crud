@@ -8,7 +8,7 @@
 
 import os
 from sqlalchemy import create_engine, Column, String, Integer
-from slqalchemy.orm import sessionmaker, declarative_base
+from sqlalchemy.orm import sessionmaker, declarative_base
 
 #criando banco de dados
 MEU_BANCO = create_engine("sqlite:///meubanco.db")
